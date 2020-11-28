@@ -105,3 +105,112 @@ jogada 6 - B
 jogada 7 - A
 jogada 8 - B
 jogada 9 - A
+
+
+
+
+
+
+
+
+Def tabuleiro()
+  print(bababa)
+  
+mostrar casas do tabuleiro (1 a 9)
+
+ciclo 1{
+
+  jogadas = 1
+  limpar tela
+  
+  ciclo 2{
+    tabuleiro()
+    jogador
+    input casa
+      
+
+    if casa errada 
+      deu errado somehow
+    elif casa ocupada
+      Deu errado somehow
+    elif vez % 2 == 0
+      O
+    elif vez % 2 == 1
+      X
+      //Jogadores
+    else
+      jogadas++
+    
+    if mylist[0] == 'X' and mylist[3] == 'X' and mylist[6] == 'X'
+      jogadas = 11
+    if mylist[1] == 'X' and mylist[4] == 'X' and mylist[7] == 'X'
+      jogadas = 11
+    if mylist[2] == 'X' and mylist[5] == 'X' and mylist[8] == 'X'
+      jogadas = 11
+      
+    if mylist[0] == 'X' and mylist[1] == 'X' and mylist[2] == 'X'
+      jogadas = 11
+    if mylist[3] == 'X' and mylist[4] == 'X' and mylist[5] == 'X'
+      jogadas = 11
+    if mylist[6] == 'X' and mylist[7] == 'X' and mylist[8] == 'X'
+      jogadas = 11
+    
+    if mylist[0] == 'X' and mylist[4] == 'X' and mylist[8] == 'X'
+      jogadas = 11
+    if mylist[2] == 'X' and mylist[4] == 'X' and mylist[6] == 'X'
+      jogadas = 11
+    
+    if mylist[0] == 'O' and mylist[3] == 'O' and mylist[6] == 'O'
+      jogadas = 12
+    if mylist[1] == 'O' and mylist[4] == 'O' and mylist[7] == 'O'
+      jogadas = 12
+    if mylist[2] == 'O' and mylist[5] == 'O' and mylist[8] == 'O'
+      jogadas = 12
+    
+    if mylist[0] == 'O' and mylist[1] == 'O' and mylist[2] == 'O'
+      jogadas = 12
+    if mylist[3] == 'O' and mylist[4] == 'O' and mylist[5] == 'O'
+      jogadas = 12
+    if mylist[6] == 'O' and mylist[7] == 'O' and mylist[8] == 'O'
+      jogadas = 12
+    
+    if mylist[0] == 'O' and mylist[4] == 'O' and mylist[8] == 'O'
+      jogadas = 12
+    if mylist[2] == 'O' and mylist[4] == 'O' and mylist[6] == 'O'
+      jogadas = 12
+    
+    SEGUNDA FORMA
+
+        if ((mylist[0] == mylist[3]) == mylist[6]) or ((mylist[1] == mylist[4]) == mylist[7]) or ((mylist[2] == mylist[5]) == mylist[8]):
+            if mylist[0] == 'X' or mylist[1] == 'X' or mylist[2] == 'X':
+              print("Parabens jogador X, voce ganhou :)")
+            else:
+              print("Parabens jogador O, voce ganhou :)")
+
+        elif ((mylist[0] == mylist[1]) == mylist[2]) or ((mylist[3] == mylist[4]) == mylist[5]) or ((mylist[6] == mylist[7]) == mylist[8]):
+            if mylist[0] == 'X' or mylist[3] == 'X' or mylist[6] == 'X':
+              print("Parabens jogador X, voce ganhou :)")
+            else:
+              print("Parabens jogador O, voce ganhou :)")
+
+       elif ((mylist[0] == mylist[4]) == mylist[8]) or ((mylist[2] == mylist[4]) == mylist[6]):
+            if mylist[0] == 'X' or mylist[2] == 'X' 
+              print("Parabens jogador X, voce ganhou :)")
+            else:
+              print("Parabens jogador O, voce ganhou :)")
+
+
+
+    
+    
+    
+  } enquanto jogadas <= 9
+  tabuleiro()
+  Jogar novamente?
+}(Enquanto quiser jogar novamente)
+
+
+
+
+
+
